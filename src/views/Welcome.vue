@@ -1,6 +1,11 @@
 <template>
   <div class="welcome">
-    <the-nav-bar />
+    <v-container>
+      <the-nav-bar />
+      <v-main>
+        
+      </v-main>
+    </v-container>
   </div>
 </template>
 
