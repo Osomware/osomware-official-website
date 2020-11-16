@@ -9,9 +9,7 @@
              @click="drawer = !drawer"
              v-if="isXs"
              color="darkblue">
-        <v-icon class="iconify" 
-                data-icon="heroicons-outline:menu-alt-4">
-        </v-icon>
+        <v-icon class="iconify" data-icon="heroicons-outline:menu-alt-4"></v-icon>
       </v-btn> <!-- HAMBURGER MENU -->
       <div v-else>
         <v-btn text 
@@ -75,9 +73,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .v-toolbar {
-    transition: 0.6s;
-  }
-</style
