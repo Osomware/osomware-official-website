@@ -7,9 +7,9 @@
            fixed
            bottom
            right
-           color="primary darken-1"
+           color="darkblue elevation-24"
            @click="toTop">
-      <v-icon>mdi-arrow-up</v-icon>
+        <v-icon class="iconify" data-icon="dashicons:arrow-up-alt2"></v-icon>
     </v-btn>
   </v-scale-transition>
 </template>
