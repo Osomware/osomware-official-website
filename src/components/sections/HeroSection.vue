@@ -52,6 +52,5 @@
   }
   .description {
     line-height: 2.0;
-    opacity: 70%;
   }
 </style>
