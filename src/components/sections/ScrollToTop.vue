@@ -1,16 +1,19 @@
 <template>
   <v-scale-transition>
-    <v-btn fab
-           v-show="fab"
-           v-scroll="onScroll"
-           dark
-           fixed
-           bottom
-           right
-           color="darkblue elevation-24"
-           @click="toTop">
-        <v-icon class="iconify" data-icon="dashicons:arrow-up-alt2"></v-icon>
-    </v-btn>
+    <v-hover v-slot="{ hover }">
+      <v-btn fab
+            v-show="fab"
+            v-scroll="onScroll"
+            dark
+            fixed
+            bottom
+            right
+            :outlined="!hover"
+            color="primary elevation-24"
+            @click="toTop">
+          <v-icon class="iconify" data-icon="dashicons:arrow-up-alt2"></v-icon>
+      </v-btn>
+    </v-hover>
   </v-scale-transition>
 </template>
 
