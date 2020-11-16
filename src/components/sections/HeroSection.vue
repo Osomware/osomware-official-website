@@ -1,0 +1,57 @@
+<template>
+  <v-container class="hero fill-height" fluid>
+    <v-row align="center" justify="center">
+      <v-col cols="12">
+        <v-row align="center" justify="center">
+          <v-col cols="12" md="6">
+            <div class="bg-image"></div>
+            <h1 class="display-3 font-weight-black pb-6 darkblue--text">Software development that fits your needs</h1>
+            <p class="darkblue--text description">
+              Full scale project development - Concept, <br />
+              Architecture, Planning, UX/UI Design, Development, <br />
+              QA and Project Management
+            </p>
+            <v-card-actions>
+              <v-btn color="primary"
+                    class="mt-5 text-capitalize font-weight-medium rounded-lg"
+                    x-large
+                    dark
+                    min-width="160"
+                    depressed>
+                Get a quote
+              </v-btn>
+              <v-hover v-slot="{ hover }">
+                <v-btn :outlined="!hover"
+                       depressed
+                       dark
+                       color="rgb(105, 36, 255)"
+                       class="mt-5 text-capitalize font-weight-medium rounded-lg"
+                       x-large
+                       min-width="160">
+                  Portfolio
+                </v-btn>
+              </v-hover>
+            </v-card-actions>
+          </v-col>
+          <v-col cols="12" md="6" class="d-none d-md-flex mt-10">
+            <v-img
+              src="@/assets/img/hero.svg"
+              class="d-block ml-auto mr-auto"
+              max-width="800"
+            />
+          </v-col>
+        </v-row>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
+
+<style scoped>
+  .hero {
+    min-height: 88vh !important;
+  }
+  .description {
+    line-height: 2.0;
+    opacity: 70%;
+  }
+</style>
