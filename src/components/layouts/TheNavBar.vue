@@ -12,17 +12,20 @@
         <v-icon class="iconify" data-icon="heroicons-outline:menu-alt-4"></v-icon>
       </v-btn> <!-- HAMBURGER MENU -->
       <div v-else>
-        <v-btn text 
-               v-for="([text, link], i) in items"
-               :key="i"
-               color="darkblue"
-               tile
-               class="font-weight-bold"
-               @click="$vuetify.goTo(link)">
-          <span class="text-capitalize">
-            {{ text }}
-          </span>
-        </v-btn>
+        <v-hover v-slot="{ hover }"
+                 v-for="([text, link], i) in items"
+                :key="i">
+          <v-btn text 
+                 tile
+                 color="darkblue"
+                 class="font-weight-bold"
+                 active-class="no-active"
+                 @click="$vuetify.goTo(link)">
+            <span :class="`${hover ? 'nav-link' : ''} ${text === 'Home' ? 'current' : ''} text-capitalize`">
+              {{ text }}
+            </span>
+          </v-btn>
+        </v-hover>
       </div> <!-- NAVIGATION LINKS -->
     </v-app-bar>
     <the-side-bar :visible="drawer"
@@ -41,6 +44,7 @@
       return {
         drawer: false,
         isXs: false,
+        hovered: false,
         items: [
           ["Home", "#hero"],
           ["Services", "#services"],
@@ -73,3 +77,40 @@
     }
   }
 </script>
+
+<style scoped>
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::before, .current::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    background-color: #6924ff;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transition: -webkit-transform 650ms;
+    transition: -webkit-transform 650ms;
+    transition: transform 650ms;
+    transition: transform 650ms, -webkit-transform 650ms;
+  }
+  .current::before {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .nav-link:hover::before {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .v-btn::before {
+    background-color: transparent;
+  }
+  .v-btn:hover:before, .v-btn:focus:before, .v-btn:hover, .v-btn:focus  {
+    background: none;
+  }
+</style>
