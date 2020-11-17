@@ -5,6 +5,7 @@
       <the-nav-bar />
       <v-main>
         <hero-section />
+        <about-us-section />
       </v-main>
       <scroll-to-top />
     </v-container>
@@ -17,14 +18,9 @@
     components: {
       TheNavBar: () => import('@/components/layouts/TheNavBar'),
       HeroSection: () => import('@/components/sections/HeroSection'),
+      AboutUsSection: () => import('@/components/sections/AboutUsSection'),
       ScrollToTop: () => import('@/components/sections/ScrollToTop'),
       ScrollIndicator: () => import('@/components/sections/ScrollIndicator')
     }
   }
 </script>
-
-<style scoped>
-  .welcome {
-    min-height: 1000vh;
-  }
-</style>
