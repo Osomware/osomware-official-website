@@ -8,7 +8,8 @@
       <v-btn icon
              @click="drawer = !drawer"
              v-if="isXs"
-             color="darkblue">
+             color="darkblue"
+             large>
         <v-icon class="iconify" data-icon="heroicons-outline:menu-alt-4"></v-icon>
       </v-btn> <!-- HAMBURGER MENU -->
       <div v-else>
