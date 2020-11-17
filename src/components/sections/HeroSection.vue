@@ -23,12 +23,12 @@
                 </v-btn>
                 <v-hover v-slot="{ hover }">
                   <v-btn :outlined="!hover"
-                        depressed
-                        dark
-                        color="rgb(105, 36, 255)"
-                        class="mt-5 text-capitalize font-weight-medium rounded-lg"
-                        x-large
-                        min-width="160">
+                          depressed
+                          dark
+                          color="rgb(105, 36, 255)"
+                          class="mt-5 text-capitalize font-weight-medium rounded-lg"
+                          x-large
+                          min-width="160">
                     Portfolio
                   </v-btn>
                 </v-hover>
@@ -36,7 +36,7 @@
             </v-col>
             <v-col cols="12" md="6" class="d-none d-md-flex mt-10">
               <v-img
-                src="@/assets/img/hero.svg"
+                src="@/assets/svgs/hero.svg"
                 class="d-block ml-auto mr-auto"
                 max-width="800"
               />
@@ -54,5 +54,6 @@
   }
   .description {
     line-height: 2.0;
+    opacity: 80% !important;
   }
 </style>
