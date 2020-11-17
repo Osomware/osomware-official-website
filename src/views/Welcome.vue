@@ -6,6 +6,7 @@
       <v-main>
         <hero-section />
         <about-us-section />
+        <our-values-section />
       </v-main>
       <scroll-to-top />
     </v-container>
@@ -19,6 +20,7 @@
       TheNavBar: () => import('@/components/layouts/TheNavBar'),
       HeroSection: () => import('@/components/sections/HeroSection'),
       AboutUsSection: () => import('@/components/sections/AboutUsSection'),
+      OurValuesSection: () => import('@/components/sections/OurValuesSection'),
       ScrollToTop: () => import('@/components/sections/ScrollToTop'),
       ScrollIndicator: () => import('@/components/sections/ScrollIndicator')
     }
