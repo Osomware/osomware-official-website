@@ -1,0 +1,34 @@
+{
+  "core_values": [
+    { 
+      "id": "1", 
+      "text": "Research and Discovery", 
+      "src": "./../../assets/svgs/core-values/icon1.svg"
+    },
+    { 
+      "id": "2", 
+      "text": "Validating and Shaping Idea", 
+      "src": "./../../assets/svgs/core-values/icon2.svg"
+    },
+    { 
+      "id": "3", 
+      "text": "Design and Prototyping", 
+      "src": "./../../assets/svgs/core-values/icon3.svg"
+    },
+    { 
+      "id": "4", 
+      "text": "Development", 
+      "src": "./../../assets/svgs/core-values/icon3.svg"
+    },
+    { 
+      "id": "5", 
+      "text": "Testing and Quality Assurance", 
+      "src": "./../../assets/svgs/core-values/icon4.svg"
+    },
+    { 
+      "id": "6", 
+      "text": "Maintenance and Support", 
+      "src": "./../../assets/svgs/core-values/icon5.svg"
+    }
+  ]
+}
