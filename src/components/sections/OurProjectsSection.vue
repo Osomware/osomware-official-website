@@ -39,10 +39,10 @@
                   Development
                 </v-btn>
               </v-card-actions>
-              <div class="darkblue--text text-justify description">
-                Airclass is an english learning web app for filipino kids who <br>
-                wants to learn english in a more efficient and friendly way. <br>
-                Also this app is suitable for adults who needs to review <br>
+              <div class="bluesecondary--text text-justify description">
+                Airclass is an english learning web app for filipino kids who
+                wants to learn english in a more efficient and friendly way. 
+                Also this app is suitable for adults who needs to review 
                 their english speakers who wants to learn english as well.
               </div>
               <v-hover v-slot="{ hover }">
@@ -86,7 +86,6 @@
   }
   .description {
     line-height: 2.5;
-    opacity: 80% !important;
   }
   .title-img {
     background-image: url('./../../assets/svgs/circles.svg');

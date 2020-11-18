@@ -16,7 +16,7 @@
               <div class="display-2 font-weight-black pb-6 darkblue--text title-img">
                 What makes us <br />different?
               </div>
-              <div class="darkblue--text text-justify description">
+              <div class="bluesecondary--text text-justify description">
                 Osomware offers our customer a wealth of technical <br />
                 and business expertise. We create diverse, complex, <br />
                 web and mobile solutions for any business need.
@@ -50,7 +50,6 @@
   }
   .description {
     line-height: 2.0;
-    opacity: 80% !important;
   }
   .title-img {
     background-image: url('./../../assets/svgs/circles.svg');

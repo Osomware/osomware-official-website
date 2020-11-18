@@ -7,7 +7,7 @@
           <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4">
             We have the skills and experience to serve you
           </div>
-          <div class="darkblue--text description">
+          <div class="bluesecondary--text description">
             We help client to design and develop future proof, significant and secure digital 
             products that are centered around users' need and fulfill clients' business goals.
           </div>
@@ -63,7 +63,6 @@
   }
   .description {
     line-height: 2.5;
-    opacity: 80% !important;
     @media screen and (min-width: 800px) {
       margin: 0px 100px 0px 100px;
     }
