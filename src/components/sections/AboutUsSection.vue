@@ -17,14 +17,14 @@
                 What makes us <br />different?
               </div>
               <div class="bluesecondary--text text-justify description">
-                Osomware offers our customer a wealth of technical <br />
-                and business expertise. We create diverse, complex, <br />
+                Osomware offers our customer a wealth of technical
+                and business expertise. We create diverse, complex,
                 web and mobile solutions for any business need.
                 <br>
                 <br>
-                Our knowledge and expertise translate to added <br>
-                value and peace of mind for our customers. width <br>
-                Syberry you get quality software and perfect service <br>
+                Our knowledge and expertise translate to added
+                value and peace of mind for our customers. width
+                Syberry you get quality software and perfect service
                 everytime.
               </div>
               <v-hover v-slot="{ hover }">
