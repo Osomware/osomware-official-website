@@ -29,7 +29,8 @@ export default new Vuetify({
         lightgray: "#BDBDBD",
         lightpink: "#FFCFE3",
         white: "#FFFFFF",
-        blueprimary: '#00a5ff'
+        blueprimary: '#00a5ff',
+        bluesecondary: '#6f80ad'
       }
     }
   }
