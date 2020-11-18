@@ -7,7 +7,7 @@
           <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4">
             Quality is our priority
           </div>
-          <div class="darkblue--text description">
+          <div class="bluesecondary--text description">
             All our processes are customer-orientted, designed to reduce the cost of business operation, address IT 
             resourcing challenges, and offer you competitive edge. We start with a deep analysis of your requirements 
             and continue our relationship with post-launch support and updates.
@@ -65,7 +65,6 @@
   }
   .description {
     line-height: 2.5;
-    opacity: 80% !important;
     @media screen and (min-width: 800px) {
       margin: 0px 100px 0px 100px;
     }

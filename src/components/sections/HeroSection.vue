@@ -7,9 +7,9 @@
             <v-col cols="12" md="6">
               <div class="bg-image"></div>
               <h1 class="display-3 font-weight-black pb-6 darkblue--text">Software development that fits your needs</h1>
-              <p class="darkblue--text description">
-                Full scale project development - Concept, <br />
-                Architecture, Planning, UX/UI Design, Development, <br />
+              <p class="bluesecondary--text description">
+                Full scale project development - Concept, 
+                Architecture, Planning, UX/UI Design, Development, 
                 QA and Project Management
               </p>
               <v-card-actions>
@@ -54,6 +54,5 @@
   }
   .description {
     line-height: 2.0;
-    opacity: 80% !important;
   }
 </style>
