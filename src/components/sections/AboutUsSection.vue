@@ -13,8 +13,8 @@
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-capitalize font-weight-black blueprimary--text mb-2">About Us</div>
-              <div class="display-2 font-weight-black pb-6 darkblue--text title-img">
-                What makes us <br />different?
+              <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4">
+                What makes us different?
               </div>
               <div class="bluesecondary--text text-justify description">
                 Osomware offers our customer a wealth of technical
@@ -49,7 +49,7 @@
     min-height: 100vh;
   }
   .description {
-    line-height: 2.0;
+    line-height: 2.5;
   }
   .title-img {
     background-image: url('./../../assets/svgs/circles.svg');
