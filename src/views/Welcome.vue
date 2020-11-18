@@ -8,6 +8,7 @@
         <about-us-section />
         <our-values-section />
         <our-projects-section />
+        <our-services-section />
       </v-main>
       <scroll-to-top />
     </v-container>
@@ -23,6 +24,7 @@
       AboutUsSection: () => import('@/components/sections/AboutUsSection'),
       OurValuesSection: () => import('@/components/sections/OurValuesSection'),
       OurProjectsSection: () => import('@/components/sections/OurProjectsSection'),
+      OurServicesSection: () => import('@/components/sections/OurServicesSection'),
       ScrollToTop: () => import('@/components/sections/ScrollToTop'),
       ScrollIndicator: () => import('@/components/sections/ScrollIndicator')
     }
