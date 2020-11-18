@@ -14,9 +14,9 @@
           <v-row align="center" justify="center" class="mt-10">
             <div v-for="value in services" :key="value.id">
               <v-hover v-slot="{ hover }" close-delay="200">
-                <v-card flat :class="`${hover ? 'elevation-24' : 'elevation-0'} ma-5`">
+                <v-card flat :class="`${hover ? 'elevation-3' : 'elevation-1'} ma-5`">
                   <v-container class="chip-container">
-                    <div class="d-flex justify-center align-center mt-3">
+                    <div class="d-flex justify-center align-center mt-4">
                       <v-img :src="getImage(value)" max-width="120"/>
                     </div>
                     <v-card-text class="font-weight-bold darkblue--text">
@@ -74,6 +74,6 @@
   }
   .chip-container {
     max-width: 190px;
-    min-height: 240px;
+    min-height: 260px;
   }
 </style>
