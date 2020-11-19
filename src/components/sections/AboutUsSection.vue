@@ -12,7 +12,7 @@
               />
             </v-col>
             <v-col cols="12" md="6">
-              <div class="text-capitalize font-weight-black blueprimary--text mb-2">About Us</div>
+              <div class="text-capitalize font-weight-medium blueprimary--text mb-2">About Us</div>
               <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4">
                 What makes us different?
               </div>

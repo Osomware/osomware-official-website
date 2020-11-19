@@ -3,7 +3,7 @@
     <v-layout class="our-values-section">
       <v-row align="center" justify="center">
         <v-col cols="12" class="text-center">
-          <div class="text-capitalize font-weight-black blueprimary--text mb-2">Our Values</div>
+          <div class="text-capitalize font-weight-medium blueprimary--text mb-2">Our Values</div>
           <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4">
             Quality is our priority
           </div>
@@ -20,7 +20,7 @@
                     <div class="d-flex justify-center align-center mt-3">
                       <v-img :src="getImage(value)" max-width="80"/>
                     </div>
-                    <v-card-subtitle class="font-weight-bold darkblue--text">
+                    <v-card-subtitle class="font-weight-medium darkblue--text">
                       {{ value.text }}
                     </v-card-subtitle>
                   </v-container>

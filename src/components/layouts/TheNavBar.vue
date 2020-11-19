@@ -19,7 +19,6 @@
           <v-btn text 
                  tile
                  color="darkblue"
-                 class="font-weight-bold"
                  active-class="no-active"
                  @click="$vuetify.goTo(link)">
             <span :class="`${hover ? 'nav-link' : ''} ${text === 'Home' ? 'current' : ''} text-capitalize`">

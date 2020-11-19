@@ -3,7 +3,7 @@
     <v-layout class="our-services-section">
       <v-row align="center" justify="center">
         <v-col cols="12" class="text-center">
-          <div class="text-capitalize font-weight-black blueprimary--text mb-2">Our Services</div>
+          <div class="text-capitalize font-weight-medium blueprimary--text mb-2">Our Services</div>
           <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4">
             We have the skills and experience to serve you
           </div>
@@ -19,8 +19,8 @@
                     <div class="d-flex justify-center align-center mt-4">
                       <v-img :src="getImage(value)" max-width="120"/>
                     </div>
-                    <v-card-text class="font-weight-bold darkblue--text">
-                      <h3>{{ value.text }}</h3>
+                    <v-card-text class="font-weight-medium darkblue--text subtitle-1">
+                      {{ value.text }}
                     </v-card-text>
                   </v-container>
                 </v-card>
@@ -74,6 +74,6 @@
   }
   .chip-container {
     max-width: 190px;
-    min-height: 260px;
+    min-height: 235px;
   }
 </style>

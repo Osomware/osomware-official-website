@@ -3,7 +3,7 @@
     <v-layout class="our-feedbacks-section">
       <v-row align="center" justify="center">
         <v-col cols="12" class="text-center">
-          <div class="text-capitalize font-weight-black blueprimary--text mb-2">Feedbacks</div>
+          <div class="text-capitalize font-weight-medium blueprimary--text mb-2">Feedbacks</div>
           <div class="display-2 font-weight-black darkblue--text title-img py-4">
             Our client appreciate what we do
           </div>

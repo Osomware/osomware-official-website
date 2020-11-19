@@ -3,7 +3,7 @@
     <v-layout class="our-projects-section">
       <v-row align="center" justify="center">
         <v-col cols="12">
-          <div class="text-capitalize font-weight-black blueprimary--text mb-2 text-center">Our Projects</div>
+          <div class="text-capitalize font-weight-medium blueprimary--text mb-2 text-center">Our Projects</div>
           <div class="display-2 font-weight-black pb-6 darkblue--text title-img py-4 mb-5 text-center">
             Take a look at what we've built
           </div>
