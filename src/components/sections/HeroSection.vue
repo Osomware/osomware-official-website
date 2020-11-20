@@ -50,7 +50,7 @@
 
 <style scoped>
   .hero-container {
-    min-height: 88vh !important;
+    min-height: 90vh !important;
   }
   .description {
     line-height: 2.0;
