@@ -19,7 +19,7 @@
                     <div class="d-flex justify-center align-center mt-4">
                       <v-img :src="getImage(value)" max-width="120"/>
                     </div>
-                    <v-card-text class="font-weight-medium darkblue--text subtitle-1">
+                    <v-card-text class="font-weight-medium darkblue--text title mt-3">
                       {{ value.text }}
                     </v-card-text>
                   </v-container>
