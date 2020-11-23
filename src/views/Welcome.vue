@@ -14,8 +14,8 @@
         <talk-to-us-section />
       </v-main>
     </v-container>
-    <the-foot-bar />
     <scroll-to-top />
+    <the-foot-bar />
   </div>
 </template>
 
