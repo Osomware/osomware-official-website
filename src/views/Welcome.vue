@@ -13,9 +13,9 @@
         <feedbacks-section />
         <talk-to-us-section />
       </v-main>
-      <scroll-to-top />
     </v-container>
     <the-foot-bar />
+    <scroll-to-top />
   </div>
 </template>
 
