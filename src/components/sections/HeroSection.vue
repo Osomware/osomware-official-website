@@ -17,7 +17,7 @@
                       class="mt-5 text-capitalize font-weight-medium rounded-lg"
                       x-large
                       dark
-                      min-width="160"
+                      width="160"
                       depressed>
                   Get a quote
                 </v-btn>
@@ -28,7 +28,7 @@
                           color="rgb(105, 36, 255)"
                           class="mt-5 text-capitalize font-weight-medium rounded-lg"
                           x-large
-                          min-width="160">
+                          width="160">
                     Portfolio
                   </v-btn>
                 </v-hover>
@@ -50,7 +50,7 @@
 
 <style scoped>
   .hero-container {
-    min-height: 90vh !important;
+    min-height: 91vh !important;
   }
   .description {
     line-height: 2.0;
