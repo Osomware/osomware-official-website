@@ -9,11 +9,13 @@
         <our-values-section />
         <our-projects-section />
         <our-services-section />
-        <our-vision-section />
+        <our-vision-section /> 
         <feedbacks-section />
+        <talk-to-us-section />
       </v-main>
       <scroll-to-top />
     </v-container>
+    <the-foot-bar />
   </div>
 </template>
 
@@ -29,6 +31,8 @@
       OurServicesSection: () => import('@/components/sections/OurServicesSection'),
       OurVisionSection: () => import('@/components/sections/OurVisionSection'),
       FeedbacksSection: () => import('@/components/sections/FeedbacksSection'),
+      TalkToUsSection: () => import('@/components/sections/TalkToUsSection'),
+      TheFootBar: () => import('@/components/layouts/TheFootBar'),
       ScrollToTop: () => import('@/components/sections/ScrollToTop'),
       ScrollIndicator: () => import('@/components/sections/ScrollIndicator')
     }
